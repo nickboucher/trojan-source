@@ -11,3 +11,7 @@
 ## Invisible Functions
 
 - Does not work on Node.js v16.4.1 (MacOS) -- throws unexpected token error
+
+## Homoglyph Function
+
+- Confirmed working Node.js v16.4.1 (MacOS)

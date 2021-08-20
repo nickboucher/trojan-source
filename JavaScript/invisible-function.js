@@ -9,7 +9,7 @@ function is​Admin() {
 }
 
 if (is​Admin()) {
-    printf("You are an admin\n");
+    console.log("You are an admin\n");
 } else {
-    printf("You are NOT an admin.\n");
+    console.log("You are NOT an admin.\n");
 }

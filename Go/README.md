@@ -7,3 +7,7 @@
 ## Reordered Conditional 2
 
 - Confirmed working on go version go1.16.6 darwin/amd64 (MacOS)
+
+## Homoglyph Function
+
+- Confirmed working on go version go1.16.6 darwin/amd64 (MacOS)
