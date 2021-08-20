@@ -1,4 +1,4 @@
-public class ReorderedConditional2 {
+public class StretchedString {
 
     public static void main(String[] args) {
         String accessLevel = "user";

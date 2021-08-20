@@ -1,4 +1,4 @@
-public class ReorderedConditional {
+public class CommentingOut {
 
     public static void main(String[] args) {
         boolean isAdmin = false;

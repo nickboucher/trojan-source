@@ -1,10 +1,10 @@
 # C#
 
-## Reordered Conditional
+## Commenting-Out
 
 - Confirmed working .NET 5.0 script (CSX on MacOS)
 
-## Reordered Conditional 2
+## Stretched String
 
 - Confirmed working .NET 5.0 script (CSX on MacOS)
 

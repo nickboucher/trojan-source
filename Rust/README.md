@@ -1,10 +1,10 @@
 # Rust
 
-## Reordered Conditional
+## Commenting-Out
 
 - Confirmed working on rustc v1.53.0 (MacOS), but throws unused variable warning
 
-## Reordered Conditional 2
+## Stretched String
 
 - Confirmed working on rustc v1.53.0 (MacOS)
 

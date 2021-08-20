@@ -1,11 +1,11 @@
 # C
 
-## Reordered Conditional
+## Commenting-Out
 
 - Confirmed working on Apple clang version 12.0.5
 - Confirmed working on Ubuntu gcc version 7.5.0
 
-## Reordered Conditional 2
+## Stretched String
 
 - Confirmed working on Apple clang version 12.0.5
 - Confirmed working on Ubuntu gcc version 7.5.0

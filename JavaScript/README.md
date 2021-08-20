@@ -1,10 +1,10 @@
 # JavaScript
 
-## Reordered Conditional
+## Commenting-Out
 
 - Confirmed working Node.js v16.4.1 (MacOS)
 
-## Reordered Conditional 2
+## Stretched String
 
 - Confirmed working Node.js v16.4.1 (MacOS)
 
