@@ -37,7 +37,6 @@
   opacity: 1;
 }
 .footer .copyright {
-  color: #777777;
   padding: 10px 0px;
   font-size: 14px;
   margin: 15px 3px;
@@ -119,7 +118,6 @@
         margin-bottom: 5px;
     }
     .copyright{
-        color: $brown-font-color;
         font-size: 0.9em;
         ul > li{
             padding-right: 0px;
@@ -128,4 +126,17 @@
     .title{
         color: $default-states-color;
     }
+}
+.footer-text {
+        min-height: 85px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+}
+
+.footer-dark {
+    background-color: $dark-footer-color;
+    color: $fill-font-color;
 }

@@ -29,7 +29,7 @@
     color: $white-color;
 }
 .section-dark{
-    background-color: #0b1011;
+    background-color: $section-dark-color;
 }
 .section-image,
 .section-gold,
@@ -67,11 +67,8 @@
     padding: 80px 0;
 }
 .section-image{
-    background-position: center center;
-    background-size: cover;
 
     &:before{
-        background-color: rgba(0, 0, 0, 0.5);
         content: "";
         display: block;
         height: 100%;
@@ -88,7 +85,8 @@
 }
 
 .section-login{
-    min-height: 700px;
+    min-height: 400px;
+    background-color: $section-dark-color;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -116,11 +114,11 @@
     padding: 80px 0;
 }
 .section-image {
-    background-position: center center;
+    background-position: center bottom;
     background-size: cover;
+    background-repeat: no-repeat;
 
     &:before {
-        background-color: rgba(0, 0, 0, 0.5);
         content: "";
         display: block;
         height: 100%;

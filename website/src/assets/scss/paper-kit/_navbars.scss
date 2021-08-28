@@ -277,3 +277,16 @@
     }
   }
 }
+
+.navbar-dark {
+  background-color: $dark-nav-color;
+  color: $white-color;
+
+  .navbar-brand {
+    color: $white-color !important;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: $white-color !important;
+  }
+}
