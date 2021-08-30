@@ -4,7 +4,7 @@ import React from "react";
 // reactstrap components
 import { Container } from "reactstrap";
 
-import extension from "components/Compatability/Webp"
+import { jpg } from "components/Compatability/Webp"
 
 function IndexHeader() {
   return (
@@ -13,7 +13,7 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/hex." + extension).default + ")",
+            "url(" + require("assets/img/hex." + jpg).default + ")",
         }}
       >
         <div className="filter" />

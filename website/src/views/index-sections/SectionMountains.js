@@ -1,5 +1,5 @@
 import React from "react";
-import extension from "components/Compatability/Webp"
+import { png } from "components/Compatability/Webp"
 
 
 function SectionMountains() {
@@ -8,7 +8,7 @@ function SectionMountains() {
       <div
         className="section section-image section-login"
         style={{
-          backgroundImage: "url(" + require("assets/img/mountains." + extension).default + ")",
+          backgroundImage: "url(" + require("assets/img/mountains." + png).default + ")",
         }}
       >
       </div>{" "}

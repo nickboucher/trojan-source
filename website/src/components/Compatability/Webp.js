@@ -1,8 +1,10 @@
 import { checkWebPSupport } from 'supports-webp-sync'
 
-var extension = "png";
+var png = "png";
+var jpg = "jpg";
 if (checkWebPSupport()) {
-  extension = "webp";
+  png = "webp";
+  jpg = "webp";
 }
 
-export default extension;
+export { png, jpg };
