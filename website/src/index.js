@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { hydrate, render } from "react-dom";
 import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 
 // styles
@@ -10,12 +10,16 @@ import "assets/demo/demo.css";
 import Index from "views/Index.js";
 // others
 
-ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-      <Route path="/" render={(props) => <Index {...props} />} />
-      <Redirect to="/" />
-    </Switch>
-  </BrowserRouter>,
-  document.getElementById("root")
-);
+const app = <BrowserRouter>
+              <Switch>
+                <Route path="/" render={(props) => <Index {...props} />} />
+                <Redirect to="/" />
+              </Switch>
+            </BrowserRouter>;
+
+const rootElement = document.getElementById("root");
+if (rootElement.hasChildNodes()) {
+  hydrate(app, rootElement);
+} else {
+  render(app, rootElement);
+}
