@@ -17,7 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
+    "build": "react-scripts build",
+    "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
@@ -48,7 +49,7 @@
     "bootstrap": "4.6.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
-    "react-snapshot": "^1.3.0"
+    "react-snap": "^1.23.0"
   },
   "description": "Trojan Source Attacks Website",
   "main": "src/assets/scss/paper-kit.scss",
