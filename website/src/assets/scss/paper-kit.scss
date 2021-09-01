@@ -62,4 +62,10 @@
 @import "paper-kit/responsive";
 
 // React Differences
-@import "react/react-differences.scss"
+@import "react/react-differences.scss";
+
+// react-typist
+@import "paper-kit/_cursor.scss";
+
+// Custom classes
+@import "paper-kit/custom.scss";
