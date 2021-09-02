@@ -115,7 +115,7 @@ function SectionDescription() {
               <h4>Code editors and repository frontends should make bidirectional control characters and mixed-script confusable characters perceptible with visual symbols or warnings.</h4>
 
               <h1>The paper</h1>
-              <h4>Complete details can be found in the related <a href={process.env.PUBLIC_URL + '/paper.pdf'} target="_self">paper</a>.</h4>
+              <h4>Complete details can be found in the related <a href={process.env.PUBLIC_URL + '/trojan-source.pdf'} target="_self">paper</a>.</h4>
               <h4>If you use the paper or anything on this site in your own work, please cite the following:</h4>
               <br />
               <div className="d-flex flex-wrap pt-4">

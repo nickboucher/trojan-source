@@ -88,7 +88,7 @@ function IndexNavbar() {
               <Button
                 className="btn-round"
                 color="danger"
-                href={process.env.PUBLIC_URL + '/paper.pdf'}
+                href={process.env.PUBLIC_URL + '/trojan-source.pdf'}
                 target="_self"
               >
                 <i className="nc-icon nc-paper"></i> Read Paper
