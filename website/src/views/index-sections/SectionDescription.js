@@ -111,8 +111,8 @@ function SectionDescription() {
 
               <h1>The defense</h1>
               <h4>Compilers, interpreters, and build pipelines supporting Unicode should throw errors or warnings for unterminated bidirectional control characters in comments or string literals, and for identifiers with mixed-script confusable characters.</h4>
-              <h4>Language specifications should formally disallow each of these practices.</h4>
-              <h4>Code editors and respository frontends should make bidirectional control characters and mixed-script confusable characters perceptible with visual symbols or warnings.</h4>
+              <h4>Language specifications should formally disallow unterminated bidirectional control characters in comments and string literals.</h4>
+              <h4>Code editors and repository frontends should make bidirectional control characters and mixed-script confusable characters perceptible with visual symbols or warnings.</h4>
 
               <h1>The paper</h1>
               <h4>Complete details can be found in the related <a href={process.env.PUBLIC_URL + '/paper.pdf'} target="_self">paper</a>.</h4>
