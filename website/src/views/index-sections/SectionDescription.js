@@ -123,7 +123,7 @@ function SectionDescription() {
                   <code className="text-white" ref={refBibTex}>
                     @article&#123;boucher_trojansource_2021,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;title = &#123;Trojan &#123;Source&#125;: &#123;Invisible&#125; &#123;Vulnerabilities&#125;&#125;,<br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;url = &#123;https://preview.trojansource.codes/paper.pdf&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;url = &#123;https://preview.trojansource.codes/trojan-source.pdf&#125;,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;journal = &#123;Preprint.&#125;,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;author = &#123;Nicholas Boucher and Ross Anderson&#125;,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;year = &#123;2021&#125;<br />
