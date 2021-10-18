@@ -59,7 +59,7 @@ function SectionDescription() {
               <h4>Compilers and interpreters adhere to the logical ordering of source code, not the visual order.</h4>
               
               <h1>The attack</h1>
-              <h4>The attack is to use control character embedded in comments and strings to reorder source code characters in a way that changes it's logic.</h4>
+              <h4>The attack is to use control characters embedded in comments and strings to reorder source code characters in a way that changes its logic.</h4>
               <h4>The previous example, for instance, works by making a comment appear as if it were code:</h4>
               <h2 className="terminal ex-1-font pt-4 pb-4">
                 <Reordering>
@@ -72,7 +72,7 @@ function SectionDescription() {
 
               <h1>The supply chain</h1>
               <h4>This attack is particularly powerful within the context of software supply chains.</h4>
-              <h4>If an adversary successfully commits targeted vulnerabilities into open source by deceiving human reviewers, downstream software will likely inherit the vulnerability.</h4>
+              <h4>If an adversary successfully commits targeted vulnerabilities into open source code by deceiving human reviewers, downstream software will likely inherit the vulnerability.</h4>
 
               <h1>The technique</h1>
               <h4>There are multiple techniques that can be used to exploit the visual reordering of source code tokens:</h4>
