@@ -69,6 +69,7 @@ function SectionDescription() {
                 </Reordering>
               </h2>
               <h4>Adversaries can leverage this deception to commit vulnerabilities into code that will not be seen by human reviewers.</h4>
+              <h4>This attack pattern is tracked as CVE-2021-42574.</h4>
 
               <h1>The supply chain</h1>
               <h4>This attack is particularly powerful within the context of software supply chains.</h4>
@@ -108,6 +109,7 @@ function SectionDescription() {
             <Col className="ml-auto mr-auto text-white" md="8">
               <h4>The above example defines two distinct functions with near indistinguishable visual differences highlighted for reference.</h4>
               <h4>An attacker can define such homoglyph functions in an upstream package imported into the global namespace of the target, which they then call from the victim code.</h4>
+              <h4>This attack variant is tracked as CVE-2021-42694.</h4>
 
               <h1>The defense</h1>
               <h4>Compilers, interpreters, and build pipelines supporting Unicode should throw errors or warnings for unterminated bidirectional control characters in comments or string literals, and for identifiers with mixed-script confusable characters.</h4>
