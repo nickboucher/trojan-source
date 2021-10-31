@@ -46,4 +46,4 @@ jobs:
           REMOTE_USER: ${{ secrets.SRCF_USER }}
           SOURCE: website/build/
           TARGET: ${{ secrets.DEPLOY_DIR }}
-          ARGS: -azv --delete --exclude '.htaccess'
+          ARGS: -azv --delete --omit-dir-times --no-perms --exclude '.htaccess'
