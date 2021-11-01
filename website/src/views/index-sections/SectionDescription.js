@@ -82,7 +82,7 @@ function SectionDescription() {
               <h4><b>Stretched Strings</b> cause portions of string literals to visually appear as code, which has the same effect as commenting-out and causes string comparisons to fail.</h4>
 
               <h1>The variant</h1>
-              <h4>A similar atttack exists which uses homoglyphs, or characters that appear near identical.</h4>
+              <h4>A similar attack exists which uses homoglyphs, or characters that appear near identical.</h4>
             </Col>
           </Row>
           <Row className="pt-4 pb-2">
