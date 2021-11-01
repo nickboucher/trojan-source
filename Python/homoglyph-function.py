@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 def sayHello():
-    print("Hello, World!\n");
+    print("Hello, World!")
 
 def sayНello():
-    print("Goodbye, World!\n");
+    print("Goodbye, World!")
 
-sayНello();
+sayНello()
