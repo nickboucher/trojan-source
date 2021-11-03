@@ -13,3 +13,7 @@ Additional details can be found in our [related paper](https://trojansource.code
 ## Proofs-of-Concept
 
 This repository is divided into per-language subdirectories. Each subdirectory contains a series of proofs-of-concept implementing various Trojan-Source attacks as well as a README describing the compilers/interpreters with which these attacks were verified.
+
+## Attack Detection
+
+Interested in analyzing source code files for the presence of Trojan Source attacks? Check out [this](https://github.com/nickboucher/bidi-viewer) repo, which visualizes bidirectional overrides.
