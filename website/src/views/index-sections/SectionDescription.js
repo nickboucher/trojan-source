@@ -125,10 +125,13 @@ function SectionDescription() {
                   <code className="text-white" ref={refBibTex}>
                     @article&#123;boucher_trojansource_2021,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;title = &#123;Trojan &#123;Source&#125;: &#123;Invisible&#125; &#123;Vulnerabilities&#125;&#125;,<br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;url = &#123;https://trojansource.codes/trojan-source.pdf&#125;,<br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;journal = &#123;Preprint.&#125;,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;author = &#123;Nicholas Boucher and Ross Anderson&#125;,<br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;year = &#123;2021&#125;<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;year = &#123;2021&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;journal = &#123;Preprint&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;eprint = &#123;2111.00169&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;archivePrefix = &#123;arXiv&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;primaryClass = &#123;cs.CR&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;url = &#123;https://arxiv.org/abs/2111.00169&#125;<br />
                     &#125;
                   </code>
                 </div>
