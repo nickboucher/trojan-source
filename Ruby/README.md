@@ -27,3 +27,22 @@ on comments. See same link as above.
 ## Stretched String
 
 - Confirmed working on ruby 3.0.1p64 (2021-04-05 revision 0fb782ee38) [x86_64-linux]
+
+# Variations
+
+Some variations that may or may not be applicable in other languages. For
+more info see:
+
+https://github.com/nickboucher/trojan-source/issues/9
+
+## Stretched Regexp
+
+- Confirmed working on ruby 3.0.1p64 (2021-04-05 revision 0fb782ee38) [x86_64-linux]
+
+## Stretched String List
+
+- Confirmed working on ruby 3.0.1p64 (2021-04-05 revision 0fb782ee38) [x86_64-linux]
+
+## Stretched Variable
+
+- Confirmed working on ruby 3.0.1p64 (2021-04-05 revision 0fb782ee38) [x86_64-linux]
