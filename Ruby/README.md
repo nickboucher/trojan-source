@@ -11,7 +11,7 @@ https://github.com/nickboucher/trojan-source/issues/8#issuecomment-962468707
 
 ## Early Return
 
-Also dues not work the same as other languages because of lack of closing token
+Also does not work the same as other languages because of lack of closing token
 on comments. See same link as above.
 
 - Confirmed working on ruby 3.0.1p64 (2021-04-05 revision 0fb782ee38) [x86_64-linux]
@@ -30,8 +30,7 @@ on comments. See same link as above.
 
 # Variations
 
-Some variations that may or may not be applicable in other languages. For
-more info see:
+Variations that may or may not be applicable in other languages. More info at:
 
 https://github.com/nickboucher/trojan-source/issues/9
 
