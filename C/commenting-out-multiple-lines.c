@@ -2,9 +2,9 @@
 
 int main() {
 	printf("Hi\n");
-	/* Hello ‮ ⁦printf("Hello World\n");⁩ ⁦*​/⁩
+	/* Hello ‮ ⁦printf("Hello World\n");⁩ ⁦*​/⁩‬
 	printf("Hello\n");
 	printf("Hello again\n");
-	/*  Bye  ‮ ⁦printf("Bye World\n");⁩ ⁦*/
+	/*  Bye  */
  	return 0;
  }
