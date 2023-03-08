@@ -123,14 +123,14 @@ function SectionDescription() {
               <div className="d-flex flex-wrap pt-4">
                 <div className="">
                   <code className="text-white" ref={refBibTex}>
-                    @article&#123;boucher_trojansource_2021,<br />
+                    @inproceedings&#123;boucher_trojansource_2023,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;title = &#123;Trojan &#123;Source&#125;: &#123;Invisible&#125; &#123;Vulnerabilities&#125;&#125;,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;author = &#123;Nicholas Boucher and Ross Anderson&#125;,<br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;year = &#123;2021&#125;,<br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;journal = &#123;Preprint&#125;,<br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;eprint = &#123;2111.00169&#125;,<br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;archivePrefix = &#123;arXiv&#125;,<br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;primaryClass = &#123;cs.CR&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;booktitle = &#123;32nd USENIX Security Symposium (USENIX Security 23)&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;year = &#123;2023&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;address = &#123;Anaheim, CA&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;publisher = &#123;USENIX Association&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;month = &#123;aug&#125;,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;url = &#123;https://arxiv.org/abs/2111.00169&#125;<br />
                     &#125;
                   </code>

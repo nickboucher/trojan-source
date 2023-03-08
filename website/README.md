@@ -11,7 +11,7 @@ The website was built targeting Node.js v15.14.0, and you may need to swtich nod
 With the proper version of node loaded, you need only run:
 
 ```sh
-cd trojan-source
+cd website
 npm install .
 npm start
 ```
