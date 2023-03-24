@@ -130,7 +130,7 @@ function SectionDescription() {
                       &nbsp;&nbsp;&nbsp;&nbsp;year = &#123;2023&#125;,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;address = &#123;Anaheim, CA&#125;,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;publisher = &#123;USENIX Association&#125;,<br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;month = &#123;aug&#125;,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;month = aug,<br />
                       &nbsp;&nbsp;&nbsp;&nbsp;url = &#123;https://arxiv.org/abs/2111.00169&#125;<br />
                     &#125;
                   </code>
