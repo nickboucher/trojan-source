@@ -20,8 +20,8 @@ We include a summary of the languages evaluated in the table below:
 
 | **Language** |**Vulnerable to<br />Early Return**|**Vulnerable to<br />Commenting-Out**|**Vulnerable to<br />Stretched Strings**| **Tool Evaluated** |
 |-----|-----|-----|-----|-----|
-| **C** | ~ | &check; | &check; | GNU `gcc` v7.6.0<br />Apple `clang` v12.0.5 |
-| **C++** | ~ | &check; | &check; | GNU `g++` v7.6.0<br />Apple `clang++` v12.0.5 |
+| **C** | ~ | &check; | &check; | GNU `gcc` v7.5.0<br />Apple `clang` v12.0.5 |
+| **C++** | ~ | &check; | &check; | GNU `g++` v7.5.0<br />Apple `clang++` v12.0.5 |
 | **C\#** | ~ | &check; | &check; | .NET 5.0 via `dotnet-script` |
 | **JavaScript** | ~ | &check; | &check; | Node.js v16.4.1 |
 | **Java** | ~ | &check; | &check; | OpenJDK v16.0.1 |
