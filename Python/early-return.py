@@ -6,4 +6,6 @@ def subtract_funds(account: str, amount: int):
     bank[account] -= amount
     return
 
+print('Starting Balance:\t\t', bank['alice'])
 subtract_funds('alice', 50)
+print('Balance After Subtracting 50:\t', bank['alice'])
