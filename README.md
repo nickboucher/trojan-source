@@ -74,8 +74,18 @@ To maximize reproducability, we note that all evaluations were performed on the 
 
 As noted, many of the compilers, code editors, and repository frontends examined in this work has since been patched with Trojan Source defenses. To reproduce the results, we recommend installing the known-vulnerable versions of software listed above, or disabling any defenses in the settings of later versions.
 
-To validate our results, we recommend opening each of the proofs-of-concept in a vulnerable code viewer, confirming that the code is displayed as depicted in the [related paper](https://trojansource.codes/trojan-source.pdf), and validating that the program executes the hidden logic rather than the visualized logic when compiled/executed with a vulnerable compiler/interpreter.
+To validate our results, we recommend opening each of the proofs-of-concept in a vulnerable code viewer, confirming that the code is displayed as depicted in the [related paper](https://trojansource.codes/trojan-source.pdf), and validating that the program executes the hidden logic rather than the visualized logic when compiled/executed with a vulnerable compiler/interpreter. Example compiler or interpreter commands are provided in the subdirectory README for each vulnerable language included in this repository.
 
+#### Docker
+
+To ease reproducability, we provide a Dockerfile that pre-installs and compiles the POCs in this repository using vulnerable tooling. The following commands will build the image, launch a container, and attach a terminal to the container for faster reproduction of our findings:
+```sh
+docker build -t trojan-source .
+docker run --name ts -d -it trojan-source
+docker attach ts
+```
+
+Note that the Solidity and Assembly POCs are exluded from the Docker image because they target different platforms than the Ubuntu base image. Reproduction instructions for these two platforms are given in [Solidity/README.md](https://github.com/nickboucher/trojan-source/blob/main/Solidity/README.md) and [Assembly/README.md](https://github.com/nickboucher/trojan-source/blob/main/Assembly/README.md).
 
 ## Attack Detection
 
