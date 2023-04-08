@@ -62,7 +62,6 @@ RUN clang++-12 C++/commenting-out.cpp -o C++/commenting-out; \
 RUN go build -o Go/commenting-out Go/commenting-out.go; \
     go build -o Go/early-return Go/early-return.go; \
     go build -o Go/homoglyph-function Go/homoglyph-function.go; \
-    go build -o Go/invisible-function Go/invisible-function.go; \
     go build -o Go/stretched-string Go/stretched-string.go
 ## Java
 RUN javac -encoding utf8 Java/CommentingOut.java; \
@@ -71,5 +70,4 @@ RUN javac -encoding utf8 Java/CommentingOut.java; \
 ## Rust
 RUN ~/.cargo/bin/rustc Rust/commenting-out.rs -o Rust/commenting-out; \
     ~/.cargo/bin/rustc Rust/homoglyph-function.rs -o Rust/homoglyph-function; \
-    ~/.cargo/bin/rustc Rust/invisible-function.rs -o Rust/invisible-function; \
     ~/.cargo/bin/rustc Rust/stretched-string.rs -o Rust/stretched-string
