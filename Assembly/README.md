@@ -28,8 +28,8 @@ Note that these Assembly POCs are written in a syntax that assumes compilation o
 
 ### Homoglyph Function
 
-- Confirmed NOT working on zsh 5.8.1 (MacOS)
+- Confirmed NOT working on Apple clang version 14.0.0 (MacOS)
 
 ### Invisble Function
 
-- Confirmed NOT working on zsh 5.8.1 (MacOS)
+- Confirmed NOT working on Apple clang version 14.0.0 (MacOS)
